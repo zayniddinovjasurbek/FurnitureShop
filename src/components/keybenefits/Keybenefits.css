@@ -1,0 +1,24 @@
+.keybenefits{
+    background: #FAF3EA;
+    padding: 60px 30px;
+}
+.keybenefits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.keybenefits-con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.keybenefits-con img{
+    width: 40px;
+}
+.keybenefits-con h2{
+    font-size: 20px;
+}
+.keybenefits-con p{
+    font-size: 16px;
+    color: #898989;
+}

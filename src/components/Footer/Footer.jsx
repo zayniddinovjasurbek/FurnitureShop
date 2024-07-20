@@ -3,6 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
+    
     <footer>
       <div className="footer-logo">
         <h1>Funiro.</h1>
@@ -23,8 +24,11 @@ const Footer = () => {
         <p>Privacy Policies</p>
       </div>
       <div className="footer-newslatter">
-        <input type="text" placeholder='Enter Your Email Address'/>
-        <a href="#">SUBSCRIBE</a>
+        <span>Newsletter</span>
+        <div className="input">
+          <input type="text" placeholder='Enter Your Email Address'/>
+          <a href="#" className='btn'>SUBSCRIBE</a>
+        </div>
       </div>
     </footer>
   )
