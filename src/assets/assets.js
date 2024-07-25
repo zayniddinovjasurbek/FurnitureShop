@@ -7,6 +7,7 @@ import kubik from './kubik.png'
 import kafolat from './kafolat.png'
 import dastafka from './dastafka.png'
 import admin from './admin.png'
+import group_img from './group-img.png'
 
 
 import product_img1 from './product-img1.png'
@@ -28,6 +29,15 @@ import furniture_img7 from './furniture-img7.png'
 import furniture_img8 from './furniture-img8.png'
 import furniture_img9 from './furniture-img9.png'
 
+import blog_left_img1 from './blog-left-img1.png'
+import blog_left_img2 from './blog-left-img2.png'
+import blog_left_img3 from './blog-left-img3.png'
+import blog_right_img1 from './blog-right-img1.png'
+import blog_right_img2 from './blog-right-img2.png'
+import blog_right_img3 from './blog-right-img3.png'
+import blog_right_img4 from './blog-right-img4.png'
+import blog_right_img5 from './blog-right-img5.png'
+
 export const assets = {
     logo,
     logo_img,
@@ -46,7 +56,19 @@ export const assets = {
     kubik,
     kafolat,
     dastafka,
-    admin
+    admin,
+    group_img
+}
+
+export const blog_imgs = {
+    blog_left_img1,
+    blog_left_img2,
+    blog_left_img3,
+    blog_right_img1,
+    blog_right_img2,
+    blog_right_img3,
+    blog_right_img4,
+    blog_right_img5
 }
 
 export const product_data1 = [
@@ -129,5 +151,38 @@ export const product_data2 = [
         price: 'Rp 2.500.000',
         foiz: false,
         new: true
+    }
+]
+
+export const blog_right_data = [
+    {
+        __id: 1,
+        image: blog_right_img1,
+        title: 'Going all-in with millennial design',
+        date: '03 Aug 2022',
+    },
+    {
+        __id: 2,
+        image: blog_right_img2,
+        title: 'Exploring new ways of decorating',
+        date: '03 Aug 2022',
+    },
+    {
+        __id: 3,
+        image: blog_right_img3,
+        title: 'Handmade pieces that took time to make',
+        date: '03 Aug 2022',
+    },
+    {
+        __id: 4,
+        image: blog_right_img4,
+        title: 'Modern home in Milan',
+        date: '03 Aug 2022',
+    },
+    {
+        __id: 5,
+        image: blog_right_img5,
+        title: 'Colorful office redesign',
+        date: '03 Aug 2022',
     }
 ]
