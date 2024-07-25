@@ -1,0 +1,23 @@
+.range{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.range-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.range h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.range p{
+    font-size: 20px;
+    color: #666;
+}

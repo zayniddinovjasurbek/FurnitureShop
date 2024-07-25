@@ -1,0 +1,153 @@
+.products{
+    margin-top: 50px;
+    padding: 10px 150px;
+}
+.products-title {
+    text-align: center;
+}
+.products-title h1{
+    font-size: 40px;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.products-card img{
+    width: 100%;
+}
+.products-card{
+    width: 100%;
+    height: 100%;
+}
+
+.products-img{
+    position: relative;
+}
+
+.products-img img{
+    z-index: -1;
+}
+
+.products-foiz{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    top: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+    background: #E97171;
+}
+.products-new{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    top: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+    background: #2EC1AC;
+}
+
+.products-actions{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 137%;
+    background: #0000006d;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.products-img:hover .products-actions{
+    z-index: 10;
+}
+.products-link{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.products-link p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.products-link p i{
+    font-size: 18px;
+}
+.products-actions .add-to-cart{
+    color: #bc8e3a;
+    background: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.products-info{
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #F4F5F7;
+}
+
+.products-info h3{
+    font-size: 22px;
+}
+
+.products-info p{
+    font-size: 16px;
+    color: #9F9F9F;
+    margin: 10px 0;
+}
+
+.products-info h4{
+    font-size: 18px;
+}
+
+.products-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.products-price span{
+    color: #666;
+    text-decoration: line-through;
+}
+
+.products-btn{
+    text-align: center;
+}
+
+.products-btn a{
+    background: #ffffff;
+    color: #B88E2F;
+    padding: 10px 40px;
+    border: 2px solid #B88E2F;
+    cursor: pointer;
+}
+
+.products-btn a:hover{
+    background: #B88E2F;
+    color: #ffffff;
+}

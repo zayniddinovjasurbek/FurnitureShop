@@ -2,6 +2,7 @@ footer{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    padding: 10px 150px;
 }
 
 footer span{

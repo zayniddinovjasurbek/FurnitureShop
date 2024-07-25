@@ -1,5 +1,4 @@
 import logo from './logo.png'
-import title_bg from './title-bg.png'
 import logo_img from './logo-img.png'
 import range_img1 from './range-img1.png' 
 import range_img2 from './range-img2.png' 
@@ -57,7 +56,9 @@ export const product_data1 = [
         name: 'Syltherine',
         description: 'Stylish cafe chair',
         price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        discount: 'Rp 3.500.000',
+        foiz: true,
+        new: false
     },
     {
         _id: 2,
@@ -65,23 +66,27 @@ export const product_data1 = [
         name: 'Syltherine',
         description: 'Stylish cafe chair',
         price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        foiz: false,
+        new: false
     },
     {
         _id: 3,
         image: product_img3,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
-        price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        description: 'Luxury big sofa',
+        price: 'Rp 7.000.000',
+        discount: 'Rp 14.000.000',
+        foiz: true,
+        new: false
     },
     {
         _id: 4,
         image: product_img4,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
-        price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        description: 'Outdoor bar table and stool',
+        price: 'Rp 500.000',
+        foiz: false,
+        new: true
     }
     
 ]
@@ -92,32 +97,37 @@ export const product_data2 = [
         _id: 5,
         image: product_img5,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
-        price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        description: 'Night lamp',
+        price: 'Rp 1.500.000',
+        foiz: false,
+        new: false
     },
     {
         _id: 6,
         image: product_img6,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
-        price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        description: 'Small mug',
+        price: 'Rp 150.000',
+        foiz: false,
+        new: true
     },
     {
         _id: 7,
         image: product_img7,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
-        price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        description: 'Cute bed set',
+        price: 'Rp 7.000.000',
+        discount: 'Rp 14.500.000',
+        foiz: true,
+        new: false
     },
     {
         _id: 8,
         image: product_img8,
         name: 'Syltherine',
-        description: 'Stylish cafe chair',
+        description: 'Minimalist flower pot',
         price: 'Rp 2.500.000',
-        discount: 'Rp 3.500.000'
+        foiz: false,
+        new: true
     }
 ]
