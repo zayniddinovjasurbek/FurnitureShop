@@ -1,0 +1,116 @@
+.cart-container{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    gap: 50px;
+}
+.cart-product-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F9F1E7;
+    padding: 10px;
+}
+
+.cart-product-title h4{
+    font-size: 16px;
+}
+.cart-product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+}
+.cart-product-container .img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-product-container img{
+    margin-top: 20px;
+    background: #F9F1E7;
+    width: 90px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cart-product-container .price{
+    position: relative;
+    right: 50px;
+}
+.cart-product-container .quantify{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+    right: 50px;
+    border: 2px solid #888;
+    width: 30px;
+    height: 30px;
+}
+
+.cart-product-container span{
+    color: #888;
+    font-size: 16px;
+}
+
+.cart-total-dele{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-total-dele i{
+    color: #B88E2F;
+    font-size: 22px;
+}
+
+
+
+.cart-total{
+    width: 330px;
+    background: #F9F1E7;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.cart-total h1{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.cart-total .sub,
+.cart-total .total{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.cart-total .sub span{
+    color: #888;
+}
+
+.cart-total .total span{
+    margin: 20px 0;
+    color: #B88E2F;
+}
+
+.cart-total button{
+    background: inherit;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cart-total button:hover{
+    background: #A87E2A;
+    color: #fff;
+    transition: all .6s ease;
+}
