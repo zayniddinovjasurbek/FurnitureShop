@@ -7,6 +7,7 @@
 }
 .products-title h1{
     font-size: 40px;
+    margin-bottom: 100px;
 }
 
 .products-container{
@@ -22,6 +23,7 @@
 .products-card{
     width: 100%;
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .products-img{
@@ -66,16 +68,17 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    z-index: -10;
+    z-index: 1;
     width: 100%;
     height: 137%;
-    background: #0000006d;
+    background: #0000007b;
     color: #fff;
-    transition: 0.8s;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
-.products-img:hover .products-actions{
-    z-index: 10;
+.products-card:hover .products-actions{
+    opacity: 1;
 }
 .products-link{
     margin-top: 10px;
@@ -105,7 +108,6 @@
 .products-info{
     position: relative;
     margin-top: -10px;
-    margin-bottom: 30px;
     padding: 20px;
     background: #F4F5F7;
 }
@@ -120,7 +122,7 @@
     margin: 10px 0;
 }
 
-.products-info h4{
+.products-price h4{
     font-size: 18px;
 }
 
@@ -136,7 +138,14 @@
 }
 
 .products-btn{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-bottom: 30px;
+    position: relative;
+    background: #fff;
+    z-index: 10;
 }
 
 .products-btn a{
@@ -145,9 +154,11 @@
     padding: 10px 40px;
     border: 2px solid #B88E2F;
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 .products-btn a:hover{
     background: #B88E2F;
     color: #ffffff;
 }
+

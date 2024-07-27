@@ -71,6 +71,10 @@ export const blog_imgs = {
     blog_right_img5
 }
 
+
+
+
+
 export const product_data1 = [
     {
         _id: 1,
@@ -85,7 +89,7 @@ export const product_data1 = [
     {
         _id: 2,
         image: product_img2,
-        name: 'Syltherine',
+        name: 'Leviosa',
         description: 'Stylish cafe chair',
         price: 'Rp 2.500.000',
         foiz: false,
@@ -94,7 +98,7 @@ export const product_data1 = [
     {
         _id: 3,
         image: product_img3,
-        name: 'Syltherine',
+        name: 'Lolito',
         description: 'Luxury big sofa',
         price: 'Rp 7.000.000',
         discount: 'Rp 14.000.000',
@@ -104,7 +108,7 @@ export const product_data1 = [
     {
         _id: 4,
         image: product_img4,
-        name: 'Syltherine',
+        name: 'Respira',
         description: 'Outdoor bar table and stool',
         price: 'Rp 500.000',
         foiz: false,
@@ -113,12 +117,11 @@ export const product_data1 = [
     
 ]
 
-
 export const product_data2 = [
     {
         _id: 5,
         image: product_img5,
-        name: 'Syltherine',
+        name: 'Grifo',
         description: 'Night lamp',
         price: 'Rp 1.500.000',
         foiz: false,
@@ -127,7 +130,7 @@ export const product_data2 = [
     {
         _id: 6,
         image: product_img6,
-        name: 'Syltherine',
+        name: 'Muggo',
         description: 'Small mug',
         price: 'Rp 150.000',
         foiz: false,
@@ -136,7 +139,7 @@ export const product_data2 = [
     {
         _id: 7,
         image: product_img7,
-        name: 'Syltherine',
+        name: 'Pingky',
         description: 'Cute bed set',
         price: 'Rp 7.000.000',
         discount: 'Rp 14.500.000',
@@ -146,13 +149,21 @@ export const product_data2 = [
     {
         _id: 8,
         image: product_img8,
-        name: 'Syltherine',
+        name: 'Potty',
         description: 'Minimalist flower pot',
         price: 'Rp 2.500.000',
         foiz: false,
         new: true
     }
 ]
+
+
+
+
+
+
+
+
 
 export const blog_right_data = [
     {
