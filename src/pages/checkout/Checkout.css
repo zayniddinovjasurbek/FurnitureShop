@@ -1,0 +1,163 @@
+.checkout-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 150px;
+    /* padding-bottom: 150px; */
+}
+
+.checkout-container h1{
+    font-size: 36px;
+}
+
+.checkout-left-con .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-left-con .form div {
+    display: flex;
+    gap: 15px;
+}
+
+.checkout-left-con .form label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.checkout-left-con .form div label input{
+    width: 300px;
+    padding: 15px;
+    outline: #999;
+    border-radius: 10px;
+    border: 2px solid #999;
+}
+
+.checkout-left-con .form label input,
+.checkout-left-con .form label select{
+    width: 615px;
+    padding: 20px;
+    outline: #999;
+    border-radius: 10px;
+    border: 2px solid #999;
+    font-size: 16px;
+}
+
+.checkout-left-con .form label select option{
+    font-size: 16px;
+}
+
+
+.checkout-right-con{
+    margin-top: 15px;
+    padding: 50px 95px;
+}
+
+.checkout-top-con{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-product,
+.checkout-subtotal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.checkout-subtotal{
+    text-align: right;
+}
+
+.checkout-product h2,
+.checkout-subtotal h2{
+    font-size: 24px;
+}
+
+.checkout-product p,
+.checkout-subtotal p{
+    font-size: 16px;
+}
+.checkout-subtotal h1{
+    font-size: 20px;
+    color: #B88E2F;
+}
+
+.checkout-product p{
+    color: #999;
+    display: flex;
+    gap: 10px;
+}
+.checkout-product p span{
+    color: #000;
+}
+
+
+hr{
+    margin: 50px 0 30px;
+}
+
+.checkout-bottom-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.checkout-bottom-con input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkout-bottom-con input[type="radio"]:checked {
+    background-color: #000;
+}
+
+.checkout-bottom-con input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.checkout-bottom-con div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkout-bottom-con label{
+    font-size: 16px;
+}
+.checkout-bottom-con p{
+    font-size: 18px;
+    color: #999;
+}
+
+.checkout-bottom-con p a{
+    font-weight: 700;
+    color: #000;
+}
+
+.checkout-bottom-con a{
+    text-align: center;
+}
+
+.checkout-bottom-con button{
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px 70px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
