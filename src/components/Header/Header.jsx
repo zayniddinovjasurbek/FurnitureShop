@@ -17,15 +17,14 @@ const Header = () => {
       <nav>
         <Link to='/'>Home</Link>
         <Link to='/shop'>Shop</Link>
-        <Link to='/about'>About</Link>
+        <Link to='/blog'>Blog</Link>
         <Link to='/contact'>Contact</Link>
       </nav>
       <div className="header-icons">
-        <TbUserExclamation />
-        <FiSearch />
-        <FiHeart />
+        <Link><TbUserExclamation /></Link>
+        <Link><FiSearch /></Link>
+        <Link><FiHeart /></Link>
         <Link to='/cart'><AiOutlineShoppingCart /></Link>
-
       </div>
     </header>
   )

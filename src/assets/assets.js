@@ -38,6 +38,14 @@ import blog_right_img3 from './blog-right-img3.png'
 import blog_right_img4 from './blog-right-img4.png'
 import blog_right_img5 from './blog-right-img5.png'
 
+import single_product_img1 from './single-product-img1.png'
+import single_product_img2 from './single-product-img2.png'
+import single_product_img3 from './single-product-img3.png'
+import single_product_img4 from './single-product-img4.png'
+import single_product_img5 from './single-product-img5.png'
+import single_product_img6 from './single-product-img6.png'
+import single_product_img7 from './single-product-img7.png'
+
 export const assets = {
     logo,
     logo_img,
@@ -71,7 +79,15 @@ export const blog_imgs = {
     blog_right_img5
 }
 
-
+export const single_product_imgs = {
+    single_product_img1,
+    single_product_img2,
+    single_product_img3,
+    single_product_img4,
+    single_product_img5,
+    single_product_img6,
+    single_product_img7
+}
 
 
 

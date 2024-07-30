@@ -4,6 +4,7 @@ import { product_data1, product_data2 } from "../../assets/assets";
 import { IoShareSocial } from "react-icons/io5";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa6";
+import { Link, NavLink } from "react-router-dom";
 const ProductsData = () => {
   return (
     <div>
@@ -16,7 +17,7 @@ const ProductsData = () => {
                                 {(product.foiz) ? <div className="products-foiz">30%</div> : <div></div>}
                                 {(product.new) ? <div className='products-new'>New</div> : <div></div>}
                                 <div className="products-actions">
-                                    <button className='add-to-cart'>Add to cart</button>
+                                    <Link to='/singleProduct' className='add-to-cart'>Add to cart</Link>
                                     <div className="products-link">
                                         <p><IoShareSocial/>Share</p>
                                         <p><i><MdOutlineCompareArrows/></i>Compare</p>

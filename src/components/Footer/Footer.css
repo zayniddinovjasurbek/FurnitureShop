@@ -24,7 +24,7 @@ footer span{
 .footer-newslatter{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .footer-links span,
