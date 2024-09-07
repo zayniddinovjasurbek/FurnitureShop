@@ -1,4 +1,6 @@
 import './Home.css'
+import React from 'react';
+
 import Homes from '../../components/homes/Homes'
 import Range from '../../components/range/Range'
 import Products from '../../components/products/Products'

@@ -14,7 +14,7 @@ const Blog = () => {
             <img src={assets.logo_img} alt="" />
             <h1>Blog</h1>
             <div className="link">
-                <h3><NavLink to='/'>Home</NavLink> <IoIosArrowForward /> <NavLink to='/blog'>Contact</NavLink></h3>
+                <h3><NavLink to='/'>Home</NavLink> <IoIosArrowForward /> <NavLink to='/blog'>Blog</NavLink></h3>
             </div>
         </div>
 
